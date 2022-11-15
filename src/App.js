@@ -5,9 +5,9 @@ import { Routes, Route } from 'react-router-dom';
 import Topbar from './scenes/global/Topbar';
 import Navbar from './scenes/global/Navbar';
 import Dashboard from './scenes/Dashboard';
-// import Team from './scenes/Team';
-// import Invoices from './scenes/Invoices';
-// import Contacts from './scenes/Contacts';
+import Team from './scenes/Team';
+import Invoices from './scenes/Invoices';
+import Contacts from './scenes/Contacts';
 // import Bar from './scenes/Bar';
 // import Form from './scenes/Form';
 // import Line from './scenes/Line';
@@ -29,9 +29,9 @@ function App() {
             <Topbar />
             <Routes>
               <Route path='/' element={<Dashboard />} />
-              {/* <Route path='/team' element={<Team />} /> */}
-              {/* <Route path='/contacts' element={<Contacts />} /> */}
-              {/* <Route path='/invoices' element={<Invoices />} /> */}
+              <Route path='/team' element={<Team />} />
+              <Route path='/contacts' element={<Contacts />} />
+              <Route path='/invoices' element={<Invoices />} />
               {/* <Route path='/form' element={<Form />} /> */}
               {/* <Route path='/bar' element={<Bar />} /> */}
               {/* <Route path='/pie' element={<Pie />} /> */}
