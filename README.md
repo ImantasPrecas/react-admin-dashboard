@@ -1,3 +1,14 @@
+# Project features
+
+- Material Ui
+- Light/Dark mode
+- Nivo charts
+- FullCalendar
+- Formic and Yup
+- React Pro Sidebar
+- React router dom
+
+------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
