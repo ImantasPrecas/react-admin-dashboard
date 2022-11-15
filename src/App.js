@@ -1,5 +1,5 @@
 import { ColorModeContext, useMode } from './theme';
-import { CssBaseLine, ThemeProvider } from '@mui/material';
+import { CssBaseline, ThemeProvider } from '@mui/material';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -7,7 +7,7 @@ function App() {
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
-        <CssBaseLine />
+        <CssBaseline />
         <div className='app'>
           <main className='content'> </main>
         </div>
