@@ -11,10 +11,10 @@ import Contacts from './scenes/Contacts';
 import Form from './scenes/Form';
 import FAQ from './scenes/Faq';
 import Calendar from './scenes/Calendar';
-// import Bar from './scenes/Bar';
-// import Line from './scenes/Line';
-// import Pie from './scenes/Pie';
-// import Geography from './scenes/Geography';
+import Bar from './scenes/Bar';
+import Pie from './scenes/Pie';
+import Line from './scenes/Line';
+import Geography from './scenes/Geography';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -35,10 +35,10 @@ function App() {
               <Route path='/form' element={<Form />} />
               <Route path='/faq' element={<FAQ />} />
               <Route path='/calendar' element={<Calendar />} />
-              {/* <Route path='/bar' element={<Bar />} /> */}
-              {/* <Route path='/pie' element={<Pie />} /> */}
-              {/* <Route path='/line' element={<Line />} /> */}
-              {/* <Route path='/geography' element={<Geography />} /> */}
+              <Route path='/bar' element={<Bar />} />
+              <Route path='/pie' element={<Pie />} />
+              <Route path='/line' element={<Line />} />
+              <Route path='/geography' element={<Geography />} />
             </Routes>
           </main>
         </div>
