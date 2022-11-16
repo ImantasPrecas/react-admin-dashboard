@@ -8,7 +8,6 @@ import listPlugin from '@fullcalendar/list';
 import { Box, List, ListItem, ListItemText, useTheme, Typography } from '@mui/material';
 import { tokens } from '../../theme';
 import Headers from '../../components/Headers';
-import { PhotoSizeSelectSmallRounded } from '@mui/icons-material';
 
 function Calendar() {
   const theme = useTheme();
